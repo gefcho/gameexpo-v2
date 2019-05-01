@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9"> <![endif]-->
+<!--[if !(IE)]><!--><html lang=""><!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Gameexpo</title>
+
+    <!-- ====Favicons==== -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    
+    
+    <!-- ====Google Font CSS==== -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic" rel="stylesheet" type='text/css'>
+    
+    <!-- ====Font Awesome CSS==== -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet">
+    
+    <!-- ====Bootstrap Core CSS==== -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- ====PrettyPhoto Core CSS==== -->
+    <link href="css/prettyphoto.css" rel="stylesheet">
+
+    <!-- ====LightGallery Core CSS==== -->
+    <link href="css/lightgallery.min.css" rel="stylesheet">
+    <link href="css/lg-transitions.min.css" rel="stylesheet">
+    <link href="css/lg-fb-comment-box.min.css" rel="stylesheet">
+    
+    <!-- ====Animate CSS==== -->
+    <link href="css/animate.css" rel="stylesheet">
+    
+    <!-- ====Carousel CSS==== -->
+    <link href="plugins/owl-carousel/owl.carousel.css" rel="stylesheet">
+    
+    <!-- ====GameExpo Core CSS==== -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ====VK Vidget==== -->
+    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>
+    
+</head>
+<body data-spy="scroll" data-target="#navigation" data-offset="100">
+
+    <div class="preloader-holder">
+        <div class="preloader loading">
+            <span class="slice"></span>
+            <span class="slice"></span>
+            <span class="slice"></span>
+            <span class="slice"></span>
+            <span class="slice"></span>
+            <span class="slice"></span>
+        </div>
+    </div>
+    
+    <div class="wrapper">
+        <!-- Navigation Area Start -->
+        <div id="navigation" class="hidden-xs hidden-sm">
+            <ul class="nav">
+                <li data-toggle="tooltip" data-placement="left" title="Главная"><a href="#home"></a></li>
+                <li data-toggle="tooltip" data-placement="left" title="Проект"><a href="#about"></a></li>
+                <li data-toggle="tooltip" data-placement="left" title="Тематика"><a href="#services"></a></li>
+                <li data-toggle="tooltip" data-placement="left" title="Программа"><a href="#programm"></a></li>
+                <li data-toggle="tooltip" data-placement="left" title="Фотогалерея"><a href="#gallery"></a></li>
+                <li data-toggle="tooltip" data-placement="left" title="Пресса"><a href="#press"></a></li>
+                <li data-toggle="tooltip" data-placement="left" title="Партнеры"><a href="#partners"></a></li>
+                <li data-toggle="tooltip" data-placement="left" title="Новости"><a href="#news"></a></li>
+                <li data-toggle="tooltip" data-placement="left" title="Билеты"><a href="#pricing-table"></a></li>
+                <li data-toggle="tooltip" data-placement="left" title="Местоположение"><a href="#how-to-get"></a></li>
+                <li data-toggle="tooltip" data-placement="left" title="Команда"><a href="#team"></a></li>
+                <li data-toggle="tooltip" data-placement="left" title="Контакты"><a href="#contact"></a></li>
+            </ul>
+        </div>
+        <!-- Navigation Area End -->
+        <!-- Off-Canvas Menu Area Start -->
+        <div id="off-canvas-menu">
+            <div class="close-btn">
+                <button><i class="fa fa-close"></i></button>
+            </div>
+            <div class="off-canvas-menu-logo">
+                <a href="">
+                    <img src="img/logo.png" alt="Gameexpo" class="img-responsive" />
+                </a>
+            </div>
+            <ul class="nav nav-pills nav-stacked">
+                <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">О Проекте <i class="fa fa-plus"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#about" class="scroll">Площадка</a></li>
+                        <li><a href="#services" class="scroll">Тематика</a></li>
+                        <li><a href="#news" class="scroll">Новости</a></li>
+                        <li><a href="#team" class="scroll">Команда</a></li>
+                    </ul>
+                </li>
+                <li><a href="#programm" class="scroll">Программа</a></li>
+                <li><a href="#gallery" class="scroll">Фотогалерея</a></li>
+                <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Медиа <i class="fa fa-plus"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#press" class="scroll">Пресса о Нас</a></li>
+                        <li><a href="">Аккредитация</a></li>
+                    </ul>
+                </li>
+                <li><a href="#partners" class="scroll">Партнеры</a></li>
+                <li><a href="#pricing-table" class="scroll">Билеты</a></li>
+                <li><a href="#how-to-get" class="scroll">Как Добраться</a></li>
+                <li><a href="#contact" class="scroll">Контакты</a></li>
+            </ul>
+            <!-- Social Links Start -->
+            <div class="off-canvas-social-links text-center">
+                <ul>
+                    <li><a href="https://vk.com/gameexpominsk" target="_blank"><i class="fab fa-vk"></i></a></li>
+                    <li><a href="https://vk.com/uniconminskgroup" target="_blank"><i class="fab fa-vk"></i></a></li>
+                    <li><a href="https://www.facebook.com/groups/gameexpominsk/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.instagram.com/gameexpominsk/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <!-- Social Links End -->
+        </div>
+        <!-- Off-Canvas Menu Area End -->
+        <!-- Back To Top Button Start -->
+        <div class="back-to-top hidden-xs hidden-sm">
+            <a href="#home"><i class="fas fa-angle-up"></i></a>
+        </div>
+        <!-- Back To Top Button End -->
+        <!-- Main Content Area Start -->
+        <div id="content">
+            <!-- Home Area Start -->
+            <div id="home" data-parallax="scroll" data-image-src="img/parallax-bg/home-bg.jpg">
+                <div class="overlay"></div>
+                <div class="logo-holder">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <!-- Menu Button Start -->
+                                <div class="menu-toggle-btn">
+                                    <button data-toggle="tooltip" data-placement="bottom" title="Меню"><i class="fa fa-bars"></i></button>
+                                </div>
+                                <!-- Menu Button End -->
+                                <!-- Logo Start -->
+                                <div class="text-left logo">
+                                    <a href="index.html">
+                                        <h1>Unicon & <span>Game Expo</span></h1>
+                                    </a>
+                                </div>
+                                <!-- Logo End -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <!-- Home Content Start -->
+                        <div class="col-md-6 home-content">
+                            <div class="va">
+                                <h3 class="wow fadeInDown" data-wow-delay=".3s">Юникон & Гейм Экспо Минск / UniCon & Game Expo Minsk</h3>
+                                <h2 class="hidden-md hidden-lg wow fadeInDown" data-wow-delay=".1s">6-8 сентября 2019 года</h2>
+                                <p class="wow fadeInUp" data-wow-delay=".1s">VIII фестиваль поклонников фантастики во всех ее проявлениях<br> 
+                                        III выставка игровой индустрии (настольные и компьютерные игры)</p>
+                                <a href="#pricing-table" class="btn btn-lg buy-now-btn scroll">Купить билет</a>
+                            </div>
+                        </div>
+                        <!-- Home Content End -->
+                        <!-- Home Image Start -->
+                        <div class="col-md-6 hidden-xs hidden-sm text-right home-content">
+                            <div class="va">
+                                <h2 class="wow fadeInDown" data-wow-delay=".1s">6-8 сентября 2019 года</h2>
+                                <div class="home-countdown wow fadeInUp" data-countdown="2019/09/06" data-wow-delay=".1s"></div>
+                            </div>
+                        </div>
+                        <!-- Home Image End -->
+                    </div>
+                </div>
+            </div>
+            <!-- Home Area End -->
+            <!-- About Area Start -->
+            <div id="about" data-parallax="scroll" data-image-src="img/parallax-bg/about-bg.jpg">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div style="display:none;" id="video1">
+                            <video class="lg-video-object lg-html5" controls preload="none">
+                                <source src="media/main-video.mp4" type="video/mp4">
+                                Your browser does not support HTML5 video.
+                            </video>
+                        </div>
+                        <div id="video" class="col-md-6 about-video">
+                            <!-- About Video Start -->
+                            <a data-html="#video1"><i class="fa fa-play"></i></a>
+                            <!-- About Video End -->
+                        </div>
+                        <!-- About Description Start -->
+                        <div class="col-md-6 pull-right about-description">
+                            <h2 class="about-title">О Проекте</h2>
+                            <p>Интерактивные стенды фантастических вселенных, обширная конкурсная программа, знакомство с новинками настольных и компьютерных игр, аллея авторов и игротеки, площадка для общения с единомышленниками и знакомства с авторами, стенды издателей и разработчиков будут представлены на втором совместном проекте.</p>
+                            <h2>Место проведения:</h2>
+                            <p>ТЛЦ «Глобус Парк», аг. Щомыслица, 28, Минский р-н, 3-й км от МКАД Минск-Брест (от ст.м. Малиновка бесплатный трансфер)</p>
+                            <p><b><a href="#how-to-get" class="link scroll text-uppercase">Как добраться</a></b></p>
+                            <h2>Режим работы:</h2>
+                            <p>6 сентября (пятница)<br>
+                                7–8 сентября (суббота-воскресенье)</p>
+                            <h2>Входной билет:</h2>
+                            <p>Вход на выставку платный.</p>
+                        </div>
+                        <!-- About Description End -->
+                    </div>
+                </div>
+            </div>
+            <!-- About Area End -->
+            <!-- Services Area Start -->
+            <div id="services">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!-- Services Title Start -->
+                            <h2 class="services-title">Тематика</h2>
+                            <!-- Services Title End -->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul role="tablist" class="services-nav">
+                                <li data-toggle="tooltip" data-placement="top" title="Гейм-индустрия" role="presentation" class="active"><a href="#gameInd" aria-controls="gameInd" role="tab" data-toggle="tab"><i class="fa fa-gamepad"></i></a></li>
+                                <li data-toggle="tooltip" data-placement="top" title="UniCon фан-стенды" role="presentation"><a href="#uniconFun" aria-controls="uniconFun" role="tab" data-toggle="tab"><i class="fa fa-jedi"></i></a></li>
+                                <li data-toggle="tooltip" data-placement="top" title="Аллея авторов" role="presentation"><a href="#alleyAuth" aria-controls="alleyAuth" role="tab" data-toggle="tab"><i class="fa fa-user-astronaut"></i></a></li>
+                                <li data-toggle="tooltip" data-placement="top" title="Аллея разработчиков инди-игр" role="presentation"><a href="#alleyDev" aria-controls="alleyDev" role="tab" data-toggle="tab"><i class="fa fa-code"></i></a></li>
+                                <li data-toggle="tooltip" data-placement="top" title="Киберспорт" role="presentation"><a href="#cybersport" aria-controls="cybersport" role="tab" data-toggle="tab"><i class="fab fa-teamspeak"></i></a></li>
+                                <li data-toggle="tooltip" data-placement="top" title="Косплей" role="presentation"><a href="#cosplay" aria-controls="cosplay" role="tab" data-toggle="tab"><i class="fa fa-mask"></i></a></li>
+                                <li data-toggle="tooltip" data-placement="top" title="Настольные игры" role="presentation"><a href="#tableGames" aria-controls="tableGames" role="tab" data-toggle="tab"><i class="fa fa-puzzle-piece"></i></a></li>
+                                <li data-toggle="tooltip" data-placement="top" title="Гик-атрибутика" role="presentation"><a href="#geekAttr" aria-controls="geekAttr" role="tab" data-toggle="tab"><i class="fa fa-hat-wizard"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="tab-content services-tab-content">
+                                <div role="tabpanel" class="tab-pane active fade in" id="gameInd">
+                                    <div class="row">
+                                        <div class="col-md-6 service-description">
+                                            <h3>Гейм-индустрия. Компьютерные игры, игровые устройства, компьютерная периферия. Аксессуары. Разработчики игр, магазины игр.</h3>
+                                            <hr />
+                                            <ul>
+                                                <li>Разработчики и издатели электронных игр.</li>
+                                                <li>Электроника, игровые компьютеры, планшеты, приставки, консоли. Мобильные устройства.</li>
+                                                <li>Игры для ПК, консолей, смартфонов и портативных устройств. Программное обеспечение.</li>
+                                                <li>Настольные игры. Издательства игр.</li>
+                                                <li>Образовательные услуги.</li>
+                                                <li>Развлекательное оборудование, игровые автоматы. Виртуальная реальность</li>
+                                                <li>Аркады, призовые аттракционы, тиры: пневматические, лазерные.</li>
+                                                <li>3D/4D/5D кинотеатры. Интерактивные игры, симуляторы, лазетраги, пейнтбол.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6 services-image">
+                                            <img src="img/service-photos/s-img-1.jpg" alt="" class="img-responsive" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane fade in" id="uniconFun">
+                                    <div class="row">
+                                        <div class="col-md-6 service-description">
+                                            <h3>UniCon фан-стенды.</h3>
+                                            <hr />
+                                            <p>Итак, в 2018 году на выставке было представлено 29 фан-стендов фантастических вселенных. Каждый стенд готовил интерактивную развлекательную и познавательную программу, тематическую фотозону и с нетерпением ждал гостей. Любой посетитель смог поучаствовать в большом квесте и выиграть ценный приз.</p>
+                                            <p>Assassin’s Creed, Avatar: The Last Airbender, BitGames, Borderlands, Battlestar Galactica, Киностенд (Тим Бертон и друзья), D&amp;D + Adventure Time, DC, Dishonored, Doctor Who + UNIT, Don’t Starve, Dragon Age, Fallout, Harry Potter, Jetix, League of Legends, Lord of the Rings, MARVEL, МДА (Миры Дугласа Адамса), My Little Pony, STALKER, Star Wars, Steampunk, Stranger Things, Warhammer 40K (2 стенда), Witcher, World of Warcraft, Ганнибал, Литературный додекаэдр.</p>
+                                        </div>
+                                        <div class="col-md-6 services-image">
+                                            <img src="img/service-photos/s-img-1.jpg" alt="" class="img-responsive" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane fade in" id="alleyAuth">
+                                    <div class="row">
+                                        <div class="col-md-6 service-description">
+                                            <h3>Аллея авторов комиксов, фантастических произведений, художников.</h3>
+                                            <hr />
+                                            <p>В качестве специальных гостей Аллеи авторов фестиваля приглашены писатели-фантасты Виталий Зыков, Вадим Панов и художники комиксов Виталий Терлецкий, Артем Бизяев.</p>
+                                            <p>На Аллее Вы увидите талантливых:</p>
+                                            <ul>
+                                                <li>Художников, иллюстраторов;</li>
+                                                <li>Авторов комиксов;</li>
+                                                <li>Писателей;</li>
+                                                <li>Арт группы.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6 services-image">
+                                            <img src="img/service-photos/s-img-1.jpg" alt="" class="img-responsive" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane fade in" id="alleyDev">
+                                    <div class="row">
+                                        <div class="col-md-6 service-description">
+                                            <h3>Аллея разработчиков инди-игр.</h3>
+                                            <hr />
+                                            <ul>
+                                                <li>IOS PLUS – мультиплеерная игра с дополненной реальностью;</li>
+                                                <li>Lapovichgames – Капитал;</li>
+                                                <li>Reptiloid Simulator;</li>
+                                                <li>Роботек;</li>
+                                                <li>Firevector – Uberflight;</li>
+                                                <li>The Ancient;</li>
+                                                <li>Baladonna games – Осколок Души;</li>
+                                                <li>Ламповая Лавка – Сопредельные острова / Fairy Lake / Dangeons and vampires / Castle of no Escape 2 / Сателлит;</li>
+                                                <li>Pirates of Failure.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6 services-image">
+                                            <img src="img/service-photos/s-img-1.jpg" alt="" class="img-responsive" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane fade in" id="cybersport">
+                                    <div class="row">
+                                        <div class="col-md-6 service-description">
+                                            <h3>Киберспорт. Турниры.  Файтинги. Ретро-игры.</h3>
+                                            <hr />
+                                            <p>В 2017 году на UniCon&Game Expo прошел открытый турнир по игре "Hearthstone".</p>
+                                            <p>В 2018 году для посетителей мы подготовили более расширенную программу на киберспортивной площадке.</p>
+                                            <p>В день открытия (пятница, 2 ноября) посетители смогут сыграть с белорусскими известными игроками и выиграть памятные сувениры.</p>
+                                            <p>3 и 4 ноября (суббота, воскресение) посетители смогут увидеть турниры по Dota2 и Hearthstone. Победители турниров получат призы от Партнеров выставки.</p>
+                                            <p>Так, победитель турнира по Hearthstone получит игровой ноутбук от Титульного партнера «Unicon & GameExpo» – бренда «ASUS».</p>
+                                        </div>
+                                        <div class="col-md-6 services-image">
+                                            <img src="img/service-photos/s-img-1.jpg" alt="" class="img-responsive" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane fade in" id="cosplay">
+                                    <div class="row">
+                                        <div class="col-md-6 service-description">
+                                            <h3>Косплей.</h3>
+                                            <hr />
+                                        </div>
+                                        <div class="col-md-6 services-image">
+                                            <img src="img/service-photos/s-img-1.jpg" alt="" class="img-responsive" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane fade in" id="tableGames">
+                                    <div class="row">
+                                        <div class="col-md-6 service-description">
+                                            <h3>Настольные игры. Бесплатная игротека.</h3>
+                                            <hr />
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+                                        </div>
+                                        <div class="col-md-6 services-image">
+                                            <img src="img/service-photos/s-img-1.jpg" alt="" class="img-responsive" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div role="tabpanel" class="tab-pane fade in" id="geekAttr">
+                                    <div class="row">
+                                        <div class="col-md-6 service-description">
+                                            <h3>Гик-атрибутика. Аксессуары. Комиксы.</h3>
+                                            <hr />
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+                                        </div>
+                                        <div class="col-md-6 services-image">
+                                            <img src="img/service-photos/s-img-1.jpg" alt="" class="img-responsive" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Services Area End -->
+            <!-- Counter Area Start -->
+            <div id="counter" data-parallax="scroll" data-image-src="img/parallax-bg/counter-bg.jpg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="counter-title">Самое масштабное<br>geek-событие Беларуси в 2019 году.<br>3 дня развлечений</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <i class="fa fa-child"></i>
+                            <span class="counter-number">10,000</span>+
+                            <span class="counter-text">посетителей</span>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <i class="fab fa-grav"></i>
+                            <span class="counter-number">29</span>
+                            <span class="counter-text">фанстендов</span>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <i class="fas fa-trademark"></i>
+                            <span class="counter-number">44</span>
+                            <span class="counter-text">стенда Game Expo</span>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <i class="fas fa-rocket"></i>
+                            <span class="counter-number">100</span>+
+                            <span class="counter-text">мероприятий</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Counter Area End -->
+            <!-- Programm Area Start -->
+            <div id="programm">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="section-title">Программа</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="intro text-center">
+                                <p>* Программа мероприятий на 2019 год находится в стадии формирования.</p>
+                                <p>Мы с радостью обсудим Ваши предложения по тел.: <a href="tel:+375 17 314 34 30" class="link">+375 17 314 34 30</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Programm Area End -->
+            <!-- Gallery Area Start -->
+            <div id="gallery">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="gallery-title">Фотогалерея</h2>
+                        </div>
+                    </div>
+                    <div class="row gallery-items">
+                        <div class="col-md-3 col-sm-6 col-xs-6 gallery-item" data-src="img/gallery-photos/g-img-1.jpg">
+                            <img src="img/gallery-photos/g-img-1.jpg">
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 gallery-item" data-src="img/gallery-photos/g-img-2.jpg">
+                            <img src="img/gallery-photos/g-img-2.jpg">
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 gallery-item" data-src="img/gallery-photos/g-img-3.jpg">
+                            <img src="img/gallery-photos/g-img-3.jpg">
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 gallery-item" data-src="img/gallery-photos/g-img-4.jpg">
+                            <img src="img/gallery-photos/g-img-4.jpg">
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 gallery-item" data-src="img/gallery-photos/g-img-5.jpg">
+                            <img src="img/gallery-photos/g-img-5.jpg">
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 gallery-item" data-src="img/gallery-photos/g-img-6.jpg">
+                            <img src="img/gallery-photos/g-img-6.jpg">
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 gallery-item" data-src="img/gallery-photos/g-img-7.jpg">
+                            <img src="img/gallery-photos/g-img-7.jpg">
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6 gallery-item" data-src="img/gallery-photos/g-img-8.jpg">
+                            <img src="img/gallery-photos/g-img-8.jpg">
+                        </div>
+                    </div>
+                    <div class="hidden-items">
+                        <div class="gallery-item" data-src="img/gallery-photos/g-img-1.jpg"><img src="img/gallery-photos/g-img-1.jpg"></div>
+                        <div class="gallery-item" data-src="img/gallery-photos/g-img-2.jpg"><img src="img/gallery-photos/g-img-2.jpg"></div>
+                        <div class="gallery-item" data-src="img/gallery-photos/g-img-3.jpg"><img src="img/gallery-photos/g-img-3.jpg"></div>
+                        <div class="gallery-item" data-src="img/gallery-photos/g-img-4.jpg"><img src="img/gallery-photos/g-img-4.jpg"></div>
+                        <div class="gallery-item" data-src="img/gallery-photos/g-img-5.jpg"><img src="img/gallery-photos/g-img-5.jpg"></div>
+                        <div class="gallery-item" data-src="img/gallery-photos/g-img-6.jpg"><img src="img/gallery-photos/g-img-6.jpg"></div>
+                        <div class="gallery-item" data-src="img/gallery-photos/g-img-7.jpg"><img src="img/gallery-photos/g-img-7.jpg"></div>
+                        <div class="gallery-item" data-src="img/gallery-photos/g-img-8.jpg"><img src="img/gallery-photos/g-img-8.jpg"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Gallery Area End -->
+            <!-- Press Area Start -->
+            <div id="press" data-parallax="scroll" data-image-src="img/parallax-bg/press-bg.jpg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="press-title">Пресса о нас</h2>
+                        </div>
+                    </div>
+                    <div class="press-items text-center">
+                        <div class="press-item"><a href=""><img src="img/press-photos/brand-img-1.png" alt=""></a></div>
+                        <div class="press-item"><img src="img/press-photos/brand-img-2.png" alt=""></div>
+                        <div class="press-item"><img src="img/press-photos/brand-img-3.png" alt=""></div>
+                        <div class="press-item"><img src="img/press-photos/brand-img-4.png" alt=""></div>
+                        <div class="press-item"><img src="img/press-photos/brand-img-5.png" alt=""></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="press-title">Видеорепортажи</h2>
+                        </div>
+                    </div>
+                    <div class="press-items text-center">
+                        <div class="press-item"><img src="img/press-photos/brand-img-1.png" alt=""></div>
+                        <div class="press-item"><img src="img/press-photos/brand-img-2.png" alt=""></div>
+                        <div class="press-item"><img src="img/press-photos/brand-img-3.png" alt=""></div>
+                        <div class="press-item"><img src="img/press-photos/brand-img-4.png" alt=""></div>
+                        <div class="press-item"><img src="img/press-photos/brand-img-5.png" alt=""></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="press-title">Блогинг и Фан-видео</h2>
+                        </div>
+                    </div>
+                    <div class="press-items text-center">
+                        <div class="press-item"><img src="img/press-photos/brand-img-1.png" alt=""></div>
+                        <div class="press-item"><img src="img/press-photos/brand-img-2.png" alt=""></div>
+                        <div class="press-item"><img src="img/press-photos/brand-img-3.png" alt=""></div>
+                        <div class="press-item"><img src="img/press-photos/brand-img-4.png" alt=""></div>
+                        <div class="press-item"><img src="img/press-photos/brand-img-5.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Press Area End -->
+            <!-- Partners Area Start -->
+            <div id="partners">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="partner-title">Партнеры</h2>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-md-12">
+                            <div class="partner">
+                                <h4>Титульный партнер</h4>
+                                <a href="" target="_blank" rel="noopener noreferrer"><img src="img/partners/1.jpg" width="120px" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="partner">
+                                <h4>Титульный партнер</h4>
+                                <a href="" target="_blank" rel="noopener noreferrer"><img src="img/partners/1.jpg" width="120px" alt=""></a>
+                            </div>
+                            <div class="partner">
+                                <h4>Титульный партнер</h4>
+                                <a href="" target="_blank" rel="noopener noreferrer"><img src="img/partners/1.jpg" width="120px" alt=""></a>
+                            </div>
+                            <div class="partner">
+                                <h4>Титульный партнер</h4>
+                                <a href="" target="_blank" rel="noopener noreferrer"><img src="img/partners/1.jpg" width="120px" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="partner">
+                                <h4>Титульный партнер</h4>
+                                <div class="one-titul">
+                                    <a href="" target="_blank" rel="noopener noreferrer"><img src="img/partners/1.jpg" width="120px" alt=""></a>
+                                    <a href="" target="_blank" rel="noopener noreferrer"><img src="img/partners/1.jpg" width="120px" alt=""></a>
+                                    <a href="" target="_blank" rel="noopener noreferrer"><img src="img/partners/1.jpg" width="120px" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="partner">
+                                <h4>Титульный партнер</h4>
+                                <a href="" target="_blank" rel="noopener noreferrer"><img src="img/partners/1.jpg" width="120px" alt=""></a>
+                            </div>
+                            <div class="partner">
+                                <h4>Титульный партнер</h4>
+                                <a href="" target="_blank" rel="noopener noreferrer"><img src="img/partners/1.jpg" width="120px" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="partner">
+                                <h4>Партнеры</h4>
+                                <div class="one-titul">
+                                    <a href="" target="_blank" rel="noopener noreferrer"><img src="img/partners/1.jpg" width="120px" alt=""></a>
+                                    <a href="" target="_blank" rel="noopener noreferrer"><img src="img/partners/1.jpg" width="120px" alt=""></a>
+                                    <a href="" target="_blank" rel="noopener noreferrer"><img src="img/partners/1.jpg" width="120px" alt=""></a>
+                                    <a href="" target="_blank" rel="noopener noreferrer"><img src="img/partners/1.jpg" width="120px" alt=""></a>
+                                    <a href="" target="_blank" rel="noopener noreferrer"><img src="img/partners/1.jpg" width="120px" alt=""></a>
+                                    <a href="" target="_blank" rel="noopener noreferrer"><img src="img/partners/1.jpg" width="120px" alt=""></a>
+                                    <a href="" target="_blank" rel="noopener noreferrer"><img src="img/partners/1.jpg" width="120px" alt=""></a>
+                                    <a href="" target="_blank" rel="noopener noreferrer"><img src="img/partners/1.jpg" width="120px" alt=""></a>
+                                    <a href="" target="_blank" rel="noopener noreferrer"><img src="img/partners/1.jpg" width="120px" alt=""></a>
+                                    <a href="" target="_blank" rel="noopener noreferrer"><img src="img/partners/1.jpg" width="120px" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Partners Area End -->
+            <!-- News Area Start -->
+            <div id="news" class="home-page">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="team-title">Новости</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- Post Start -->
+                        <div class="col-sm-6 col-md-3 news-post wow fadeInLeft" data-wow-delay="0.1s">
+                            <a href="blog_details.html" class="post-link">
+                                <div class="post-image-holder">
+                                    <img class="post-image" src="img/blog-photos/post-img-1.jpg" alt="">
+                                    <div class="post-date-holder">
+                                        <span class="post-date-num">29</span>
+                                        <span class="post-date-text">Dec</span>
+                                    </div>
+                                </div>
+                                <!-- Post Title Start -->
+                                <h2 class="post-title">Lorem Ipsum is simply is dummy</h2>
+                                <!-- Post Title End -->
+                            </a>
+                            <div class="post-author-metadata">
+                                <span class="post-author-text">Posted by:</span><a href="#" class="post-author-name">Admin</a>
+                            </div>
+                            <p class="post-description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                            <a href="blog_details.html" class="post-details-link">Read More &gt;&gt;&gt;</a>
+                        </div>
+                        <!-- Post End -->
+                        <!-- Post Start -->
+                        <div class="col-sm-6 col-md-3 news-post active wow fadeInLeft" data-wow-delay="0.3s">
+                            <a href="blog_details.html" class="post-link active">
+                                <div class="post-image-holder">
+                                    <img class="post-image" src="img/blog-photos/post-img-2.jpg" alt="">
+                                    <div class="post-date-holder">
+                                        <span class="post-date-num">29</span>
+                                        <span class="post-date-text">Dec</span>
+                                    </div>
+                                </div>
+                                <!-- Post Title Start -->
+                                <h2 class="post-title">Lorem Ipsum is simply is dummy</h2>
+                                <!-- Post Title End -->
+                            </a>
+                            <div class="post-author-metadata">
+                                <span class="post-author-text">Posted by:</span><a href="#" class="post-author-name">Admin</a>
+                            </div>
+                            <p class="post-description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                            <a href="blog_details.html" class="post-details-link">Read More &gt;&gt;&gt;</a>
+                        </div>
+                        <!-- Post End -->
+                        <!-- Post Start -->
+                        <div class="col-sm-6 col-md-3 news-post wow fadeInLeft" data-wow-delay="0.5s">
+                            <a href="blog_details.html" class="post-link">
+                                <div class="post-image-holder">
+                                    <img class="post-image" src="img/blog-photos/post-img-3.jpg" alt="">
+                                    <div class="post-date-holder">
+                                        <span class="post-date-num">29</span>
+                                        <span class="post-date-text">Dec</span>
+                                    </div>
+                                </div>
+                                <!-- Post Title Start -->
+                                <h2 class="post-title">Lorem Ipsum is simply is dummy</h2>
+                                <!-- Post Title End -->
+                            </a>
+                            <div class="post-author-metadata">
+                                <span class="post-author-text">Posted by:</span><a href="#" class="post-author-name">Admin</a>
+                            </div>
+                            <p class="post-description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                            <a href="blog_details.html" class="post-details-link">Read More &gt;&gt;&gt;</a>
+                        </div>
+                        <!-- Post End -->
+                        <!-- Post Start -->
+                        <div class="col-sm-6 col-md-3 news-post wow fadeInLeft" data-wow-delay="0.7s">
+                            <a href="blog_details.html" class="post-link">
+                                <div class="post-image-holder">
+                                    <img class="post-image" src="img/blog-photos/post-img-4.jpg" alt="">
+                                    <div class="post-date-holder">
+                                        <span class="post-date-num">29</span>
+                                        <span class="post-date-text">Dec</span>
+                                    </div>
+                                </div>
+                                <!-- Post Title Start -->
+                                <h2 class="post-title">Lorem Ipsum is simply is dummy</h2>
+                                <!-- Post Title End -->
+                            </a>
+                            <div class="post-author-metadata">
+                                <span class="post-author-text">Posted by:</span><a href="#" class="post-author-name">Admin</a>
+                            </div>
+                            <p class="post-description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                            <a href="blog_details.html" class="post-details-link">Read More &gt;&gt;&gt;</a>
+                        </div>
+                        <!-- Post End -->
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a href="blog.html" class="btn btn-lg view-all-btn">view all</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- News Area End -->
+            <!-- Pricing Area Start -->
+            <div id="pricing-table">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="section-title">Купить билеты</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <p class="shops">До 1 сентября (включительно) 2019 г. билеты можно купить <a href="" class="link">В МАГАЗИНАХ-ПАРТНЕРАХ</a>.</p>
+                            <a href="pricing.html" class="btn btn-lg buy-now-btn wow fadeInDown" data-wow-delay=".3s">Купить билет онлайн</a>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="ticket-info">
+                                <div class="title">
+                                    <h3>Типы билетов</h3>
+                                </div>
+                                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingOne">
+                                            <a role="button" data-toggle="collapse" href="#ticketOne" aria-expanded="true" aria-controls="ticketOne">
+                                                <h4 class="panel-title">Однодневный билет <i class="fa fa-minus"></i></h4>
+                                            </a>
+                                        </div>
+                                        <div id="ticketOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                            <div class="panel-body">
+                                                <p>Дает право многократного входа в один из дней (7 или 8 сентября). Действителен только один день.</p>
+                                                <p>Стоимость – <b class="blue del">25 BYN</b> <b class="blue">20 BYN</b> (до 31 мая) (в дни фестиваля – <b class="blue">30 BYN</b>).</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingTwo">
+                                            <a class="collapsed" role="button" data-toggle="collapse" href="#ticketTwo" aria-expanded="false" aria-controls="ticketTwo">
+                                                <h4 class="panel-title">Билет на два дня <i class="fa fa-minus"></i></h4>
+                                            </a>
+                                        </div>
+                                        <div id="ticketTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                            <div class="panel-body">
+                                                <p>Билет на два дня – субботу и воскресенье, 7 и 8 сентября – с посещением всех мероприятий фестиваля, дает право многократного входа 7 и 8 сентября.</p>
+                                                <p>Стоимость – <b class="blue del">35 BYN</b> <b class="blue">30 BYN</b> (до 31 мая) (в дни фестиваля – <b class="blue">40 BYN</b>).</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingThree">
+                                            <a class="collapsed" role="button" data-toggle="collapse" href="#ticketThree" aria-expanded="false" aria-controls="ticketThree">
+                                                <h4 class="panel-title">Детский билет <i class="fa fa-minus"></i></h4>
+                                            </a>
+                                        </div>
+                                        <div id="ticketThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                            <div class="panel-body">
+                                                <p>Дети <b>до 6 лет</b> посещают мероприятие <b><i>бесплатно в сопровождении взрослых</i></b>.</p>
+                                                <p>Дети <b>от 6 до 13 лет</b> включительно посещают мероприятие <b><i>в сопровождении взрослых и покупают билеты</i></b> с 50% скидкой. Детский билет действителен только при наличии сопровождающего лица с билетом прочих категорий.</p>
+                                                <p>Стоимость:</p>
+                                                <ul>
+                                                    <li>Однодневный детский билет (7 или 8 сентября) – <b class="blue">10 BYN</b> (в дни фестиваля – <b class="blue">15 BYN</b>).</li>
+                                                    <li>Двухдневный детский билет (7 или 8 сентября) – <b class="blue">15 BYN</b> (в дни фестиваля – <b class="blue">20 BYN</b>).</li>
+                                                    <li>Трехдневный детский билет – <b class="blue">20 BYN</b> (в дни фестиваля – <b class="blue">25 BYN</b>).</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingFour">
+                                            <a class="collapsed" role="button" data-toggle="collapse" href="#ticketFour" aria-expanded="false" aria-controls="ticketFour">
+                                                <h4 class="panel-title">VIP <i class="fa fa-minus"></i></h4>
+                                            </a>
+                                        </div>
+                                        <div id="ticketFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                            <div class="panel-body">
+                                                <p>Действителен три дня, включая VIP-день, с посещением всех мероприятий фестиваля, дает право многократного входа в любой из дней.</p>
+                                                <p>Стоимость – <b class="blue del">45 BYN</b> <b class="blue">40 BYN</b> (до 31 мая).</p>
+                                                <p class="text-uppercase red">Первые 100 билетов – <b class="blue">25 BYN</b></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingFive">
+                                            <a class="collapsed" role="button" data-toggle="collapse" href="#ticketFive" aria-expanded="false" aria-controls="ticketFive">
+                                                <h4 class="panel-title">EXCLUSIVE <i class="fa fa-minus"></i></h4>
+                                            </a>
+                                        </div>
+                                        <div id="ticketFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                                            <div class="panel-body">
+                                                <p>Именной билет. Действителен три дня, включая VIP-день, с посещением всех мероприятий фестиваля и многократным входом во все дни фестиваля. Дает возможность входа до открытия выставки.</p>
+                                                <p>Стоимость – <b class="blue">100 BYN</b>.</p>
+                                                <p>Билет включает:</p>
+                                                <ul>
+                                                    <li>Персональный именной бэйдж.</li>
+                                                    <li>Отдельный Exlusive вход без очередей.</li>
+                                                    <li>Возможность раннего входа.</li>
+                                                    <li>Подарочную промосумку + памятный сувенир (брендированную футболку, бейсболку или проморюкзак на усмотрение организаторов) с символикой фестиваля.</li>
+                                                    <li>Сладкий перекус от гастрономических партнеров фестиваля.</li>
+                                                    <li>Место за столиком в лаундж-зоне вблизи сцены.</li>
+                                                    <li>Место в первом ряду в конференц-залах во время встреч со специально приглашенными гостями.</li>
+                                                    <li>5 бонусных баллов в кросстендовый квест (можно собрать наклеек на 5 меньше).</li>
+                                                    <li>Бесплатный кофе от партнеров.</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingSix">
+                                            <a class="collapsed" role="button" data-toggle="collapse" href="#ticketSix" aria-expanded="false" aria-controls="ticketSix">
+                                                <h4 class="panel-title">SUPER EXCLUSIVE <i class="fa fa-minus"></i></h4>
+                                            </a>
+                                        </div>
+                                        <div id="ticketSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+                                            <div class="panel-body">
+                                                <p>Именной билет. Действителен три дня, включая VIP-день, с посещением всех мероприятий фестиваля и многократным входом во все дни фестиваля. Дает возможность входа до открытия выставки.</p>
+                                                <p>Стоимость – <b class="blue">200 BYN</b>.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="ticket-info">
+                                <div class="title warning">
+                                    <h3>Внимание!</h3>
+                                </div>
+                                <p class="desc">Онлайн продажа билетов производится до <span>08.09.2019 г.</span> включительно.</p>
+                                <p class="desc"><span>СКИДКА!</span> При онлайн покупке билетов с 1 по 31 мая стоимость билетов на одно-, двух-дневные и VIP билеты уменьшается на <span>5 BYN</span>.</p>
+                                <p class="desc">При покупке билетов со 6 по 8 сентября в павильоне или на сайте стоимость увеличивается на <span>25%</span>.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Pricing Area Start -->
+            <!-- HowToGet Area Start -->
+            <div id="how-to-get">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12 map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d37681.99283122605!2d27.436520000000005!3d53.82286!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6160a8950faaf5ac!2z0JPQu9C-0LHRg9GBINCf0LDRgNC6!5e0!3m2!1sru!2sby!4v1555662200614!5m2!1sru!2sby" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-md-6 col-sm-12 how-to-get pull-right">
+                            <h2 class="title">Как добраться</h2>
+                            <p class="desc">Бесплатным автобусом от ст. м. Малиновка до остановки «Unicon&GameExpo» напротив секции «F» ТЛЦ «Глобус Парк» и обратно.</p>
+                            <p class="day">Расписание будет доступно позже.</p>
+                            <p class="desc">Расписание движения бесплатного автобуса от станции метро "Малиновка" осуществляется по следующему графику работы:</p>
+                            <p class="day">Будние дни:</p>
+                            <ul class="time">
+                                <li>9.00</li>
+                                <li>9.40</li>
+                                <li>10.20</li>
+                                <li>11.00</li>
+                                <li>12.00</li>
+                                <li>13.00</li>
+                                <li>14.00</li>
+                                <li>15.00</li>
+                                <li>16.00</li>
+                                <li>16.40</li>
+                                <li>17.20</li>
+                                <li>18.00</li>
+                                <li>18.40</li>
+                                <li>19.40</li>
+                                <li>20.40</li>
+                            </ul>
+                            <p class="day">Выходные и праздничные дни:</p>
+                            <ul class="time">
+                                <li>9.00</li>
+                                <li>10.00</li>
+                                <li>11.00</li>
+                                <li>11.40</li>
+                                <li>12.20</li>
+                                <li>13.00</li>
+                                <li>13.40</li>
+                                <li>14.20</li>
+                                <li>15.00</li>
+                                <li>15.40</li>
+                                <li>16.20</li>
+                                <li>17.00</li>
+                                <li>18.00</li>
+                                <li>19.00</li>
+                                <li>20.00</li>
+                                <li>20.40</li>
+                            </ul>
+                            <p class="desc">Автомобилем</p>
+                            <p class="day">Координаты GPS:</p>
+                            <ul class="time">
+                                <li>53.823014</li>
+                                <li>27.437411</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- HowToGet Area Start -->
+            <!-- Team Area Start -->
+            <div id="team">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="team-title">Наша команда</h2>
+                        </div>
+                    </div>
+                    <div class="row team-members owl-carousel">
+                        <div class="col-md-12 col-sm-12 col-xs-12 team-member active item">
+                            <a class="member-profile">
+                                <div class="member-photo">
+                                    <img src="img/team-photos/team-member-1.png" alt="" class="img-responsive" />
+                                </div>
+                                <h2 class="team-member-title">Молодцова Ольга <span>руководитель проекта</span></h2>
+                            </a>
+                            <div class="team-member-social-links">
+                                <ul>
+                                    <li><a href="https://vk.com/olga197803" class="active" target="_blank"><i class="fab fa-vk"></i></a></li>
+                                    <li><a href="tel:+375173143430" data-toggle="tooltip" data-placement="top" title="+375 (17) 314 34 30 "><i class="fas fa-phone"></i></a></li>
+                                    <li><a href="tel:+375447171730" data-toggle="tooltip" data-placement="top" title="+375 (44) 717 17 30"><i class="fas fa-mobile-alt"></i></a></li>
+                                    <li><a href="mailto:o.mol@expoforum.by" data-toggle="tooltip" data-placement="top" title="o.mol@expoforum.by"><i class="fas fa-at"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 team-member item">
+                            <a class="member-profile">
+                                <div class="member-photo">
+                                    <img src="img/team-photos/team-member-2.png" alt="" class="img-responsive" />
+                                </div>
+                                <h2 class="team-member-title">Плешкевич Александра <span>специалист по рекламе</span></h2>
+                            </a>
+                            <div class="team-member-social-links">
+                                <ul>
+                                    <li><a href="https://vk.com/id37912377" class="active" target="_blank"><i class="fab fa-vk"></i></a></li>
+                                    <li><a href="tel:+375173143430" data-toggle="tooltip" data-placement="top" title="+375 (17) 314 34 30 "><i class="fas fa-phone"></i></a></li>
+                                    <li><a href="tel:+375296312908" data-toggle="tooltip" data-placement="top" title="+375 (29) 631 29 08"><i class="fas fa-mobile-alt"></i></a></li>
+                                    <li><a href="mailto:expo_pr@expoforum.by" data-toggle="tooltip" data-placement="top" title="expo_pr@expoforum.by"><i class="fas fa-at"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 team-member item">
+                            <a class="member-profile">
+                                <div class="member-photo">
+                                    <img src="img/team-photos/team-member-3.png" alt="" class="img-responsive" />
+                                </div>
+                                <h2 class="team-member-title">Котова Виктория <span>куратор деловой программы</span></h2>
+                            </a>
+                            <div class="team-member-social-links">
+                                <ul>
+                                    <li><a href="https://vk.com/id7065360" class="active" target="_blank"><i class="fab fa-vk"></i></a></li>
+                                    <li><a href="tel:+375173143430" data-toggle="tooltip" data-placement="top" title="+375 (17) 314 34 30 "><i class="fas fa-phone"></i></a></li>
+                                    <li><a href="mailto:kotova@expoforum.by" data-toggle="tooltip" data-placement="top" title="kotova@expoforum.by"><i class="fas fa-at"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Team Area End -->
+            <!-- Contact Area Start -->
+            <div id="contact" data-parallax="scroll" data-image-src="img/parallax-bg/contact-bg.jpg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!-- Contact Title Start -->
+                            <h2 class="contact-title">Контакты</h2>
+                            <!-- Contact Title End -->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- Contact Address Start -->
+                        <div class="col-md-4 contact-address">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h2><i class="fa fa-map-marker"></i> Организатор:</h2>
+                                    <address>
+                                        Выставочное унитарное предприятие «Экспофорум»
+                                    </address>
+                                    <address>
+                                        <img src="img/logo-expoforum.png" alt="" class="img-responsive">
+                                    </address>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h2><i class="fa fa-map-marker"></i> Адрес:</h2>
+                                    <address>
+                                        Беларусь, г. Минск, 220140 ул. Притыцкого, 91 пом. 432
+                                    </address>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h2><i class="fa fa-phone"></i> Телефоны:</h2>
+                                    <address>
+                                        <a href="tel:+375 17 314 34 30" class="link">+375 17 314 34 30</a>
+                                    </address>
+                                    <address>
+                                        <a href="tel:+375 44 717 17 30" class="link">+375 44 717 17 30</a>
+                                    </address>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h2><i class="fa fa-envelope"></i> Email:</h2>
+                                    <address>
+                                        <a href="mailto:o.mol@expoforum.by" class="link">o.mol@expoforum.by</a>
+                                    </address>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Contact Address End -->
+                        <div class="col-md-8">
+                            <div class="contact-form-status"></div>
+                            <!-- Contact Form Start -->
+                            <form action="#" method="post" id="contact-form">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <input type="text" name="name" placeholder="Name" class="form-control" />
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="email" name="email" placeholder="Email" class="form-control" />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <textarea cols="30" name="message" rows="6" placeholder="Message" class="form-control"></textarea>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input type="submit" value="send" class="form-control" />
+                                    </div>
+                                </div>
+                            </form>
+                            <!-- Contact Form End -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Contact Area End -->
+            <!-- Footer Widgets Start -->
+            <div id="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <!-- VK Widget -->
+                            <div id="vk_groups"></div>
+                            <script type="text/javascript">
+                            VK.Widgets.Group("vk_groups", {mode: 4, wide: 1, width: "auto", height: "300", color1: 'FFF'}, 147075208);
+                            </script>
+                        </div>
+                        <div class="col-md-3">
+                            <h3 class="footer-title">Полезные ссылки</h3>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <ul class="useful-links">
+                                        <li>Электронный адрес службы аккредитации: <a href="mailto:pr@unicon.by" class="link">pr@unicon.by</a></li>
+                                        <li>Соорганизатор интерактивной программы: <a href="http://expofest.by/" class="link" target="_blank" rel="noopener noreferrer">ООО «Экспофест»</a></li>
+                                        <li>Реализатор билетов: <a href="http://expofest.by/" class="link" target="_blank" rel="noopener noreferrer">ООО «Экспофест»</a></li>
+                                        <li>Сайт организатора: <a href="https://expoforum.by/" class="link" target="_blank" rel="noopener noreferrer">expoforum.by</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <h3 class="footer-title">Мы принимаем</h3>
+                            <div class="cards_logos">
+                                <ul>
+                                    <li><img src="img/logo-cards/visa.png"></li>
+                                    <li><img src="img/logo-cards/verified_by_visa.png"></li>
+                                    <li><img src="img/logo-cards/mastercard.png"></li>
+                                    <li><img src="img/logo-cards/master_card_secure_code.png"></li>
+                                    <li><img src="img/logo-cards/belkart.png"></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="https://bepaid.by/" target="_blank" rel="noopener noreferrer"><img src="img/logo-cards/bepaid.png"></a></li>
+                                    <li><a href="https://www.mtbank.by/" target="_blank" rel="noopener noreferrer"><img src="img/logo-cards/mtbank.png"></a></li>
+                                    <li><a href="https://www.kvitki.by/" target="_blank" rel="noopener noreferrer"><img src="img/logo-cards/kvitki.png"></a></li>
+                                    <li><a href="http://www.bycard.by/" target="_blank" rel="noopener noreferrer"><img src="img/logo-cards/bycard.png"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Widgets End -->
+            <!-- Copyright Area Start -->
+            <div id="copyright">
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!-- Social Links Start -->
+                            <div class="social-links">
+                                <ul>
+                                    <li class="wow fadeInUp" data-wow-delay=".3s"><a href="https://vk.com/gameexpominsk" target="_blank"><i class="fab fa-vk"></i></a></li>
+                                    <li class="wow fadeInUp" data-wow-delay=".2s"><a href="https://vk.com/uniconminskgroup" target="_blank"><i class="fab fa-vk"></i></a></li>
+                                    <li class="wow fadeInUp" data-wow-delay=".2s"><a href="https://www.facebook.com/groups/gameexpominsk/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li class="wow fadeInUp" data-wow-delay=".3s"><a href="https://www.instagram.com/gameexpominsk/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                            <!-- Social Links End -->
+                        </div>
+                        <div class="col-md-12">
+                            <!-- Copyright Start -->
+                            <p class="wow fadeInDown" data-wow-delay=".3s">&copy; 2019 <a href="http://expofest.by" target="_blank" class="copyright-link">ООО «ЭКСПОФЕСТ»</a> зарегистрирован Минским горисполкомом 27 января 2017 г.<br>
+                                Регистрационный номер: 192765095</p>
+                            <!-- Copyright End -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Copyright Area End -->
+        </div>
+        <!-- Main Content Area End -->
+    </div>
+
+    <!-- ====jQuery Core JavaScript==== -->
+    <script src="js/jquery-2.2.0.min.js"></script>
+
+    <!-- ====Bootstrap Core JavaScript==== -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- ====IsoTope JavaScript==== -->
+    <script src="js/isotope-docs.min.js"></script>
+    
+    <!-- ====jQuery Countdown JavaScript==== -->
+    <script src="js/jquery.countdown.min.js"></script>
+    
+    <!-- ====jQuery Animate Scroll JavaScript==== -->
+    <script src="js/animatescroll.min.js"></script>
+    
+    <!-- ====jQuery LightGallery JavaScript==== -->
+    <script src="js/lightgallery-all.min.js"></script>
+
+    <!-- ====wowJS JavaScript==== -->
+    <script src="js/wow.min.js"></script>
+    
+    <!-- ====jQuery Parallax JavaScript==== -->
+    <script src="js/parallax.min.js"></script>
+
+    <!-- ====jQuery Validation JavaScript==== -->
+    <script src="js/jquery.validate.min.js"></script>
+    
+    <!-- ====jQuery Waypoints JavaScript==== -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    
+    <!-- ====jQuery CounterUP JavaScript==== -->
+    <script src="js/jquery.counterup.min.js"></script>
+    
+    <!-- ====Owl Carousel JavaScript==== -->
+    <script src="plugins/owl-carousel/owl.carousel.min.js"></script>
+
+
+    <!-- ====GameExpo Core JavaScript==== -->
+    <script src="js/script.js"></script>
+</body>
+</html>
